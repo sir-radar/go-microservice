@@ -15,7 +15,7 @@ import (
 	"github.com/sir-radar/authentication-service/data"
 )
 
-const PORT = "3000"
+const PORT = "80"
 var counts int64
 
 type Config struct {
