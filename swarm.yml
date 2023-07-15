@@ -1,6 +1,12 @@
 version: '3'
 
 services:
+  front-end:
+    image: sirradar/front-end:1.0.0
+    deploy:
+      mode: replicated
+      replicas: 1
+
   broker-service:
     image: sirradar/broker-service:1.0.1
     deploy:
