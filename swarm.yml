@@ -2,14 +2,12 @@ version: '3'
 
 services:
   broker-service:
-    image: sirradar/broker-service:1.0.0
-    ports:
-      - '8080:80'
+    image: sirradar/broker-service:1.0.1
     deploy:
       mode: replicated
       replicas: 1
 
-  listener-services:
+  listener-service:
     image: sirradar/listener-service:1.0.0
     deploy:
       mode: replicated
