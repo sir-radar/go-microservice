@@ -3,6 +3,7 @@ db-data
 */authApp
 */brokerApp
 */frontApp
+*/frontEndApp
 */loggerServiceApp
 */mailApp
 */listenerApp
